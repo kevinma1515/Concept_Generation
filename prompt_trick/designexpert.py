@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import itertools
 import numpy as np
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = API
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
